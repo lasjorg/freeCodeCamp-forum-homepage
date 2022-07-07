@@ -88,8 +88,8 @@
 
 	.details {
 		display: grid;
-		grid-template-columns: 1fr auto auto auto 1rem;
-		gap: 1.3rem;
+		grid-template-columns: 1fr auto auto auto;
+		gap: 1.5rem;
 		border-bottom: 3px solid #424255;
 	}
 
@@ -99,11 +99,10 @@
 
 	.topic {
 		display: grid;
-		grid-template-columns: 1fr auto 2.5rem 2.5rem 6.25rem;
+		grid-template-columns: 1fr auto 2.5rem 4.5rem 2.5rem;
 		gap: 2rem;
 		padding-block: 1.2rem;
 		border-bottom: 1px solid #424255;
-		align-items: center;
 	}
 
 	.topic-posters {
@@ -117,7 +116,6 @@
 	.topic-date {
 		flex: 0 1 80px;
 		color: rgb(135, 136, 147);
-		text-align: center;
 	}
 
 	.topic-title {
