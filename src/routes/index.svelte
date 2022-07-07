@@ -93,6 +93,10 @@
 		border-bottom: 3px solid #424255;
 	}
 
+	.details > h4 {
+		margin-bottom: 1rem;
+	}
+
 	.topic {
 		display: grid;
 		grid-template-columns: 1fr auto 2.5rem 2.5rem 6.25rem;
