@@ -1,5 +1,5 @@
 <script context="module" lang="ts">
-  import type { User, Topic } from './ForumInterface';
+  import type { User, Topic } from './Forum.types';
 
   export async function load() {
     const response = await fetch(`https://forum-proxy.freecodecamp.rocks/latest`);
